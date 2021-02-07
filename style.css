@@ -2,9 +2,11 @@ header{
     margin: 20px;
     height: 100px;
 }
+
 nav > ul{
     list-style-type: none;
 }
+
 nav > ul > li{
     display: inline;
     float: right;
@@ -13,9 +15,12 @@ nav > ul > li{
     color: #383838;
     font-size: 16px;
 }
+
+/* style for search area  */
 #search-div{
     text-align: center;
 }
+
 #search-btn{
     width: 100px;
     height: 60px;
@@ -24,6 +29,7 @@ nav > ul > li{
     color: white;
     background-color: #F06C4E;
 }
+
 #search-txt{
     width: 500px;
     height: 60px;
@@ -32,6 +38,7 @@ nav > ul > li{
     background-color: #F8F7F5;
     font-size: 16px;
 }
+
 #search-results{
     margin: 20px;
     display: grid;
@@ -39,6 +46,7 @@ nav > ul > li{
     grid-gap: 25px;
 }
 
+/* style for display error text  */
 #error-div{
     margin: auto;
     padding-top: 15px;
@@ -48,22 +56,24 @@ nav > ul > li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
+/* style for display specific meal details with ingredients  */
 #detail-search-result{
     padding: 25px;
 }
+
 .ingredientsDiv{
     width: 450px;
     border-radius: 10px;
     background-color: royalblue;
     margin: auto;
 }
+
 .ingredientsDiv > img {
     border-radius: 10px;
     height: 350px;
     width: 450px;
 }
+
 .ingredientsDiv > h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -73,6 +83,7 @@ nav > ul > li{
     margin-bottom: 10px;
     padding: 5px;
 }
+
 .ingredientsDiv > h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -81,22 +92,24 @@ nav > ul > li{
     margin: 0px;
     padding: 5px;
 }
+
 .ingredientsDiv > ul {
     list-style-type: square;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: whitesmoke;
 }
 
-
-
+/* style for display random search results  */
 .resultDiv{
     border-radius: 15px;
     text-align: center;
     background-color: #F8F7F5;
 }
+
 .resultDiv:hover{
     background-color: steelblue;
 }
+
 .resultDiv > img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -104,6 +117,7 @@ nav > ul > li{
     width: 100%;
     height: 80%;
 }
+
 .resultDiv > span{
     height:fit-content;
     font-size: 20px;
@@ -111,12 +125,14 @@ nav > ul > li{
     color: #252525;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .resultDiv > span:hover{
     color: whitesmoke;
     font-weight: 500;
 
 }
 
+/* style for footer area  */
 footer{
     height: 50px;
     text-align: center;

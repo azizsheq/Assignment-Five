@@ -23,6 +23,7 @@ function getSearchResults() {
                     data.meals.forEach(element => {
                         const createDiv = document.createElement("div");
                         createDiv.className = "resultDiv";
+                        // createDiv.onclick = `displayDetails('${element.strMeal}')`;
 
                         const searchResult = `
                             <img src="${element.strMealThumb}" alt="">
@@ -42,8 +43,8 @@ function getSearchResults() {
 const displayDetails = name => {
     const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${name}`
     fetch(url)
-    .then(res => res.json())
-    .then(data => renderMealIngredients(data.meals[0]));
+        .then(res => res.json())
+        .then(data => renderMealIngredients(data.meals[0]));
 }
 
 
@@ -87,7 +88,7 @@ function clearDiv() {
 
     displaySearch.innerHTML = "";
     errorDiv.innerHTML = "";
-    displayDetails.innerHTML = ""; 
+    displayDetails.innerHTML = "";
 }
 
 
